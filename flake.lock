@@ -1,0 +1,71 @@
+{
+  "nodes": {
+    "nimi": {
+      "inputs": {
+        "nix2container": "nix2container",
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1784493629,
+        "narHash": "sha256-gM5wSJ+XW8tczLMtINYDXq8z+FV89jBlHtn9tiC2LjM=",
+        "owner": "kiaragrouwstra",
+        "repo": "nimi",
+        "rev": "717c9a56b8d2620265270f4467f286c81381cd70",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kiaragrouwstra",
+        "ref": "service-locality",
+        "repo": "nimi",
+        "type": "github"
+      }
+    },
+    "nix2container": {
+      "inputs": {
+        "nixpkgs": [
+          "nimi",
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1775487831,
+        "narHash": "sha256-2lguQpLPQaxpQCJjXhmEEAfabwsAhkP29Z7fgLzHARA=",
+        "owner": "nlewo",
+        "repo": "nix2container",
+        "rev": "76be9608a7f4d6c985d28b0e7be903ae2547df3e",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nlewo",
+        "repo": "nix2container",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1784392735,
+        "narHash": "sha256-KnNPk8ZyoqXQcMeSW7Vgz/TaB3sLfx+VXEOUtp4Prjg=",
+        "owner": "kiaragrouwstra",
+        "repo": "nixpkgs",
+        "rev": "41dd0a310945c474aa2b74f8a448d1024b038b12",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kiaragrouwstra",
+        "ref": "child-service-locality",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "nimi": "nimi",
+        "nixpkgs": "nixpkgs"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
